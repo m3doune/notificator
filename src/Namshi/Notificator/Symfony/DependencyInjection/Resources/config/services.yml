@@ -3,5 +3,5 @@ parameters:
 
 services:
     notificator.manager:
-        class: %namshi.notificator.manager.class%
+        class: '%namshi.notificator.manager.class%'
         arguments: [[], @logger]
